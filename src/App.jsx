@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className='text-8xl'>BRH25</div>
+      <div className='text-8xl'>Webapp</div>
     </>
   )
 }
