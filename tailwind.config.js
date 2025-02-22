@@ -7,7 +7,12 @@ export default {
       md: { min: "650px", max: "800px" }, // Between 650px and 800px
       lg: { min: "801px" }, // Everything larger than 800px
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        newsreader: ['Newsreader', 'serif'],
+        faustina: ['Faustina', 'serif'],
+      },
+    },
   },
   plugins: [],
 };
