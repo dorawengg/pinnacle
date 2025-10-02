@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar';
+import MobileNav from './components/MobileNav';
 import Home from './Home';
 import Consulting from './Consulting';
 import Tutoring from './Tutoring';
@@ -15,7 +16,16 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        {/* Navbar for md+ screens */}
+        <div className="hidden lg:block">
+          <Navbar />
+        </div>
+
+        {/* MobileNav for sm screens */}
+        <div className="block lg:hidden">
+          <MobileNav />
+        </div>
+
         <div className="">
           <Routes>
             <Route path="/" element={<Home />} />

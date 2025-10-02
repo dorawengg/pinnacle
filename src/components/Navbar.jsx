@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/pinnacleLogo.png"
 
 function Navbar() {
   return (
@@ -6,7 +7,7 @@ function Navbar() {
       {/* Logo */}
       <div className="w-[35%]">
         <a href="/">
-          <div>LOGO</div>
+          <img src={logo} alt="Pinnacle Edu Logo" className="h-10" />
         </a>
       </div>
 
