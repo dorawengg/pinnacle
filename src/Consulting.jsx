@@ -45,12 +45,12 @@ const Consulting = () => {
           I'm interested! What's next?
         </div>
         <div>
-          If you’re interested in our college counseling services, fill out our consultation form and we’ll be in touch.
+          If you’re interested in our college counseling services,fill out our consultation form and we’ll be in touch.
         </div>
-          <button className="bg-[#001F3F] text-white rounded-xl px-6 py-3 hover:bg-[#003366] transition shadow w-1/2 sm:w-full">
-            Schedule a consultation now
-            <span className="ml-2">→</span>
-          </button>
+        <button className="bg-[#001F3F] text-white rounded-xl px-6 py-3 hover:bg-[#003366] transition shadow w-1/2 sm:w-full">
+          Schedule a consultation now
+          <span className="ml-2">→</span>
+        </button>
 
       </div>
 

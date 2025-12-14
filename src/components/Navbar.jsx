@@ -1,5 +1,4 @@
-import React from "react";
-import logo from "../assets/pinnacleLogo.png"
+import logo from "../assets/pinnacleLogo.png";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -7,9 +6,9 @@ function Navbar() {
     <div className="flex flex-row justify-between items-center mx-auto text-xl max-w-screen-xl mt-[1%] ml-20 mr-20">
       {/* Logo */}
       <div className="w-[35%]">
-        <a href="/">
+        <Link to="/">
           <img src={logo} alt="Pinnacle Edu Logo" className="h-10" />
-        </a>
+        </Link>
       </div>
 
       {/* Navigation Links */}
