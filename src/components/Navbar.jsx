@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/pinnacleLogo.png"
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -14,44 +15,11 @@ function Navbar() {
       {/* Navigation Links */}
       <div className="text-lg">
         <ul className="flex flex-row space-x-4">
-          <li>
-            <a
-              href="/"
-
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              href="/Consulting"
-
-            >
-              Consulting
-            </a>
-          </li>
-          <li>
-            <a
-              href="/Tutoring"
-            >
-              Tutoring & Test Prep
-            </a>
-          </li>
-          <li>
-            <a
-              href="/Team"
-            >
-              Our Team
-            </a>
-          </li>
-          <li>
-            <a
-              href="/Contact"
-            >
-              Contact Us
-            </a>
-          </li>
-
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/Consulting">Consulting</Link></li>
+          <li><Link to="/Tutoring">Tutoring & Test Prep</Link></li>
+          <li><Link to="/Team">Our Team</Link></li>
+          <li><Link to="/Contact">Contact Us</Link></li>
         </ul>
       </div>
     </div>
