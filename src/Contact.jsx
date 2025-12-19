@@ -4,12 +4,12 @@ import wechatQR from './assets/wechat.png' // <- you need this import
 const Contact = () => {
   return (
     <>
-      <div className='m-10 h-[65vh] flex flex-col px-10'>
+      <div className='m-10 h-auto flex flex-col px-10'>
         <h1 className="text-4xl font-semibold mb-6">Contact Us</h1>
         <div className='font-light text-2xl mb-10 '>Ready to start your free consultation? Email or visit us in person to get started. </div>
 
 
-        <div className='flex flex-row '>
+        <div className='flex flex-row sm:flex-col'>
           <div className='flex flex-col grow space-y-8'>
             <div>
               <div className="text-lg text-gray-800">
@@ -56,9 +56,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
-
-
 
       </div>
     </>

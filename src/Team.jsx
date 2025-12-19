@@ -3,12 +3,12 @@ import React from 'react'
 const Team = () => {
   return (
     <>
-      <div className='m-10 h-[65vh] flex items-center justify-center px-10'>
+      <div className='m-10 h-auto flex items-center justify-center px-10 '>
         <div className='flex flex-row space-x-24'>
           <div className="flex-[2] flex flex-col text-left space-y-8">
             <div className='font-semibold text-5xl font-newsreader'>Meet Our Expert Team
             </div>
-            <div className='font-light text-2xl'>At Pinnacle, we take a holistic approach to college admissions and academic excellence. Our team is more than just a group of experts—we are mentors, strategists, and dedicated advocates for student success. We understand that every student has a unique story to tell, and we are here to help craft that story into a compelling application that stands out.</div>
+            <div className='font-light text-2xl'>At Pinnacle, we take a holistic approach to college admissions and academic excellence. Our team is more than just a group of experts — we are mentors, strategists, and dedicated advocates for student success. We understand that every student has a unique story to tell, and we are here to help craft that story into a compelling application that stands out.</div>
           </div>
 
         </div>
