@@ -20,8 +20,8 @@ function Home() {
             </div>
           </div>
           <div className="flex-[1] flex flex-col text-left text-lg sm:text-xl justify-end space-y-3 lg:space-y-0">
-            <div>Explore Our Programs</div>
-            <div>Book Your Appointment</div>
+            <a href="/Tutoring"><div className='underline'>Explore Our Programs</div></a>
+            <a href="/Contact"><div className='underline'>Book Your Appointment</div></a>
           </div>
         </div>
       </div>

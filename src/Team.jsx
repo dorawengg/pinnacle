@@ -24,9 +24,9 @@ const Team = () => {
         <div className='font-light text-2xl sm:text-xl'>As a parent who has successfully navigated the college admissions process, Aileen brings firsthand experience and insight into what it takes to help students succeed. She has built strong connections with local schools, allowing her to provide tailored guidance and strategic networking opportunities for students seeking admissions support.</div>
       </div>
       <div className='flex flex-col m-20 space-y-5'>
-        <div className='font-semibold text-3xl font-newsreader'>Meet Deaner
+        <div className='font-semibold text-3xl font-newsreader'>Meet Marshall
         </div>
-        <div className='font-light text-2xl sm:text-xl'>With over 25 years of experience guiding students through the college admissions process, Deaner is a seasoned professional writer and a premium SAT & ACT tutor. He has worked with some of the most prestigious test prep companies, helping students achieve top scores and secure admissions to elite universities. His expertise in crafting compelling personal statements and application essays ensures that every student presents their best self to admissions committees.</div>
+        <div className='font-light text-2xl sm:text-xl'>With over 25 years of experience guiding students through the college admissions process, Marshall is a seasoned professional writer and a premium SAT & ACT tutor. He has worked with some of the most prestigious test prep companies, helping students achieve top scores and secure admissions to elite universities. His expertise in crafting compelling personal statements and application essays ensures that every student presents their best self to admissions committees.</div>
       </div>
     </>
 
